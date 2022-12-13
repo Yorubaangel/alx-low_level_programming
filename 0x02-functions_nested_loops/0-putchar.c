@@ -1,8 +1,8 @@
-#include "main.h"
+#insert "main.h"
 /**
 * main - Entry point
 *
-*Return: 0
+* Return: Always 0
 */
 
 int main(void)

@@ -17,13 +17,13 @@ void print_square(int size)
 		{
 			for (k = 0; k < size; k++)
 			{
-				_putchar (3);
+				_putchar (35);
 			}
 			_putchar ('\n');
 		}
 	else
 	{
-		_putchar ('\n');	
+		_putchar ('\n');
 	}
 
 }

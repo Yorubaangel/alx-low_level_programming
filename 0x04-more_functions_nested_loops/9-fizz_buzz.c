@@ -13,7 +13,7 @@ int main(void)
 
 	i = 1;
 
-	while (p <= 1)
+	while (i <= p)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -26,9 +26,13 @@ int main(void)
 		else if (i % 5 == 0)
 		{
 			if (i < p)
+			{
 				printf("Buzz ");
+			}
 			else
+			{
 				printf("Buzz");
+			}
 		}
 		else
 		{

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>`
 #include "function_pointers.h"
 
 /**
@@ -23,7 +23,7 @@ void print_name_uppercase(char *name)
 {
 	unsigned int i;
 
-	printf("Hello, my uppercase name is ");
+	printf("Hello, my uppercase name is");
 	i = 0;
 	while (name[i])
 	{

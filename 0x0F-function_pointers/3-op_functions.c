@@ -1,4 +1,4 @@
-#include <3-calc.h>
+#include "3-calc.h"
 
 /**
 * op_add - calculates the sum of two integers
@@ -30,7 +30,7 @@ int op_sub(int a, int b)
 * Return: sum of a and b
 */
 
-int op_nul(int a, int b)
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
